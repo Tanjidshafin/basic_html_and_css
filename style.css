@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+
+}
+
+.navbar {
+
+    margin: 7rem;
+}
+
+.navbar_alignment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right_navbar_alignment {
+    display: flex;
+    align-items: center;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+.navbar_items_gap {
+    margin-right: 2rem;
+}
+
+.logo_name {
+    font-size: 3rem;
+}
+
+.span_of_name {
+    color: orangered;
+}
+
+/* Button Design */
+
+.button_design {
+    padding: 20px 30px;
+    border: 2px solid orangered;
+    background-color: orangered;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.button_design:hover {
+    background-color: transparent;
+    color: orangered;
+    border: 2px dotted orangered;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+/* navbar done */
+
+
+.first_section {
+    background-image: url(images/header_bg.png), url(images/developer.png);
+
+    background-repeat: no-repeat;
+    background-position: bottom right,left bottom ;
+    margin-bottom: 8rem;
+
+}
+
+.first_section_alignment {
+    display: flex;
+    align-items: center;
+    margin-left: 7rem;
+}
+.banner_first_line{
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+.banner_second_line{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.banner_third_line{
+font-size: 1rem;
+color: gray;
+margin-bottom: 1rem ;
+margin-right: 3rem;
+
+}
