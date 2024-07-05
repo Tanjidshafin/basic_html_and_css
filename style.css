@@ -74,7 +74,9 @@ ul li {
 .first_section_alignment {
     display: flex;
     align-items: center;
-    margin-left: 7rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 3rem;
 }
 .banner_first_line{
     font-size: 3rem;
@@ -90,4 +92,27 @@ color: gray;
 margin-bottom: 1rem ;
 margin-right: 3rem;
 
+}
+
+/* header page done */
+
+.second_section_align{
+    background-color:  #F8F8F8;
+    margin: 15rem;
+}
+.second_content_align{
+    text-align: center;
+    padding: 8rem 5rem;
+}
+.info_align{
+    display: flex;
+    justify-content: space-between;
+}
+.info_title{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.info_description{
+    margin-bottom: 2rem;
 }
