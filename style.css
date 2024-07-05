@@ -129,7 +129,7 @@ ul li {
 
 .skill_section {
     margin: 15rem;
-
+margin-bottom: 8rem;
     padding: 8rem 5rem;
 }
 
@@ -167,3 +167,40 @@ ul li {
 }
 
 /* What I do section completed */
+
+.summary_section{
+    margin: 12rem;
+}
+.summary_section_alignment{
+    display: flex;
+}
+.summary_title{
+    text-align: center;
+    margin-bottom: 5rem;
+    font-weight: 600;
+}
+.summary_side_title{
+    font-weight: 600;
+    margin-bottom: 2rem;
+    padding: 20px;
+}
+.degree{
+font-weight: 600;
+}
+.institute{
+    color: gray;
+    margin: 0.60rem 0;
+}
+.description{
+color: gray;
+font-size: 14px;
+margin-right:6rem ;
+}
+.qualification_box{
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+    padding: 20px;
+    box-shadow: 5px 10px 8px 5px #888888;
+}
+
+/* summary of the resume */
