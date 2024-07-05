@@ -66,7 +66,7 @@ ul li {
     background-image: url(images/header_bg.png), url(images/developer.png);
 
     background-repeat: no-repeat;
-    background-position: bottom right,left bottom ;
+    background-position: bottom right, left bottom;
     margin-bottom: 8rem;
 
 }
@@ -78,41 +78,92 @@ ul li {
     max-width: 1200px;
     padding: 0 3rem;
 }
-.banner_first_line{
+
+.banner_first_line {
     font-size: 3rem;
     margin-bottom: 0.5rem;
 }
-.banner_second_line{
+
+.banner_second_line {
     font-size: 4rem;
     margin-bottom: 1rem;
 }
-.banner_third_line{
-font-size: 1rem;
-color: gray;
-margin-bottom: 1rem ;
-margin-right: 3rem;
+
+.banner_third_line {
+    font-size: 1rem;
+    color: gray;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
 
 }
 
 /* header page done */
 
-.second_section_align{
-    background-color:  #F8F8F8;
+.second_section_align {
+    background-color: #F8F8F8;
     margin: 15rem;
+    margin-bottom: 8rem;
 }
-.second_content_align{
+
+.second_content_align {
     text-align: center;
     padding: 8rem 5rem;
 }
-.info_align{
+
+.info_align {
     display: flex;
     justify-content: space-between;
 }
-.info_title{
+
+.info_title {
     margin-bottom: 2rem;
     font-size: 2rem;
     font-weight: 500;
 }
-.info_description{
+
+.info_description {
     margin-bottom: 2rem;
 }
+
+/* info section completed */
+
+.skill_section {
+    margin: 15rem;
+
+    padding: 8rem 5rem;
+}
+
+.skills_sections_alignment {
+    text-align: center;
+}
+
+.skills_contents_align {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill_contents {
+    background-color: #F8F8F8;
+    padding: 1rem;
+    text-align: start;
+    margin-right: 1rem;
+    box-shadow: 5px 10px 8px 5px #888888;
+}
+
+.skills_title {
+    margin: 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.skills_description {
+    color: gray;
+    font-size: 13px;
+}
+
+.what_I_do_description {
+    margin: 3rem 0;
+    color: gray;
+}
+
+/* What I do section completed */
